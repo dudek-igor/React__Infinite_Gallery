@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/React__Infinite_Gallery/static/js/main.9a64aaff.chunk.js",
-    "main.js.map": "/React__Infinite_Gallery/static/js/main.9a64aaff.chunk.js.map",
+    "main.js": "/React__Infinite_Gallery/static/js/main.07c1c98b.chunk.js",
+    "main.js.map": "/React__Infinite_Gallery/static/js/main.07c1c98b.chunk.js.map",
     "runtime-main.js": "/React__Infinite_Gallery/static/js/runtime-main.8d470f22.js",
     "runtime-main.js.map": "/React__Infinite_Gallery/static/js/runtime-main.8d470f22.js.map",
-    "static/js/2.f6f6a652.chunk.js": "/React__Infinite_Gallery/static/js/2.f6f6a652.chunk.js",
-    "static/js/2.f6f6a652.chunk.js.map": "/React__Infinite_Gallery/static/js/2.f6f6a652.chunk.js.map",
+    "static/js/2.10b6b7cd.chunk.js": "/React__Infinite_Gallery/static/js/2.10b6b7cd.chunk.js",
+    "static/js/2.10b6b7cd.chunk.js.map": "/React__Infinite_Gallery/static/js/2.10b6b7cd.chunk.js.map",
     "index.html": "/React__Infinite_Gallery/index.html",
-    "static/js/2.f6f6a652.chunk.js.LICENSE.txt": "/React__Infinite_Gallery/static/js/2.f6f6a652.chunk.js.LICENSE.txt"
+    "static/js/2.10b6b7cd.chunk.js.LICENSE.txt": "/React__Infinite_Gallery/static/js/2.10b6b7cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8d470f22.js",
-    "static/js/2.f6f6a652.chunk.js",
-    "static/js/main.9a64aaff.chunk.js"
+    "static/js/2.10b6b7cd.chunk.js",
+    "static/js/main.07c1c98b.chunk.js"
   ]
 }
