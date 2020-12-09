@@ -21,13 +21,13 @@ const App = () => {
       } else if (error.response.data.errors) {
         setError(error.response.data.errors.join(', '));
       }
-      console.error({ error });
     }
   }, [images]);
 
   useEffect(() => {
     fetchImages();
-  }, [fetchImages]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
