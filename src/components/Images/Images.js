@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const UnsplashImages = ({ images }) => {
   const refImages = useRef(null);
   useEffect(() => {
-    const images = [...refImages.current.children].slice(-10);
+    const images = [...refImages.current.children].slice(-12);
     gsap.to(images, {
       duration: 1,
       opacity: 1,
@@ -17,7 +17,12 @@ const UnsplashImages = ({ images }) => {
   return (
     <StyledImageWrapper ref={refImages}>
       {images.map(({ id, alt_description, urls: { small } }) => (
-        <StyledImage key={id} src={small} alt={alt_description} />
+        <StyledImage
+          loading='lazy'
+          key={id}
+          src={small}
+          alt={alt_description}
+        />
       ))}
     </StyledImageWrapper>
   );
