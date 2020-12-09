@@ -14,6 +14,6 @@ export const StyledImage = styled.img`
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0;
   opacity: 0;
 `;

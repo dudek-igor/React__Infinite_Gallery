@@ -7,7 +7,12 @@ const UnsplashImages = ({ images }) => {
   const refImages = useRef(null);
   useEffect(() => {
     const images = [...refImages.current.children].slice(-10);
-    gsap.to(images, { duration: 2, opacity: 1, stagger: 0.3 });
+    gsap.to(images, {
+      duration: 1,
+      opacity: 1,
+      boxShadow: '0px 0px 30px 0px rgba(0, 0, 0, 0.8)',
+      stagger: 0.3,
+    });
   }, [images]);
   return (
     <StyledImageWrapper ref={refImages}>
