@@ -13,4 +13,5 @@ export const GlobalStyle = createGlobalStyle`
 
 export const StyledError = styled.h2`
   text-align: center;
+  margin-bottom: 30px;
 `;
