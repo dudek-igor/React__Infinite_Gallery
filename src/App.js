@@ -8,7 +8,7 @@ import InfiniteScroll from 'react-infinite-scroller';
 
 const App = () => {
   const [images, setImages] = useState([]);
-  const [error, setError] = useState('');
+  const [error, setError] = useState();
 
   const fetchImages = useCallback(async () => {
     try {
@@ -34,8 +34,8 @@ const App = () => {
       <GlobalStyle />
       <>
         <Heading />
-        {error && !images.length.length && <StyledError>{error}</StyledError>}
-        {images.length ? (
+        {error && !images.length && <StyledError>{error}</StyledError>}
+        {images.length || error ? (
           <InfiniteScroll
             pageStart={0}
             loadMore={fetchImages}
@@ -47,6 +47,7 @@ const App = () => {
         ) : (
           <OvalLoader />
         )}
+        {error && !!images.length && <StyledError>{error}</StyledError>}
       </>
     </>
   );
