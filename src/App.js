@@ -12,7 +12,7 @@ const App = () => {
 
   const fetchImages = useCallback(async () => {
     try {
-      const apiLink = `https://api.unsplash.com/photos/random?client_id=${process.env.REACT_APP_UNSPLASH_ACC_KEY}&count=10&orientation=portrait`;
+      const apiLink = `https://api.unsplash.com/photos/random?client_id=${process.env.REACT_APP_UNSPLASH_ACC_KEY}&count=12&orientation=portrait`;
       const { data } = await axios.get(apiLink);
       setImages([...images, ...data]);
     } catch (error) {
